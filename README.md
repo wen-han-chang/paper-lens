@@ -1,4 +1,4 @@
-# AI Paper Reading Assistant
+# paper-lens
 
 A research paper reading tool that helps researchers quickly understand, query, and compare academic papers — designed with HCI principles to reduce the cognitive load of literature review.
 
@@ -17,17 +17,23 @@ An AI-powered interface that lets researchers:
 ## HCI Design Process
 
 ```
-5-person interview → Prototype → Usability test (5 users) → Iteration → Final build
+Needfinding → Design → Prototype → Usability Test → Iteration → Build
 ```
 
-**Key finding from user testing:**
-> Users didn't know they could ask questions about specific sections — adding "highlight-to-ask" increased engagement significantly.
+| Phase | Method | Status |
+|-------|--------|--------|
+| Needfinding | Semi-structured interview — 3 grad students | In progress |
+| Design Decision | Findings → feature prioritization | Pending |
+| Prototype | Figma wireframe | Pending |
+| Usability Test | Think-aloud + SUS questionnaire — 5 users | Pending |
+| Iteration | Revise based on test findings | Pending |
 
-| Phase | Method |
-|-------|--------|
-| Needfinding | Semi-structured interview with 5 grad students |
-| Prototype | Figma + this repo |
-| Evaluation | Think-aloud + SUS questionnaire |
+### Interview Questions
+5 questions focused on reading habits, pain points, and tool expectations.
+See [`research/interview-guide.md`](research/interview-guide.md) for full protocol.
+
+### Key Design Decisions
+> *To be updated after needfinding interviews.*
 
 ## Tech Stack
 
@@ -49,7 +55,7 @@ An AI-powered interface that lets researchers:
 ## Project Structure
 
 ```
-ai-paper-assistant/
+paper-lens/
 ├── frontend/
 │   ├── src/
 │   │   ├── components/
